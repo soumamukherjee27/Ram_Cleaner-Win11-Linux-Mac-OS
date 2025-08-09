@@ -29,4 +29,6 @@ A lightweight Python utility that continuously monitors system memory usage and 
 
 ### 1. Clone repository
 ```bash
+
 git clone https://github.com/soumamukherjee27/Ram_Cleaner-Win11-Linux-Mac-OS.git
+
