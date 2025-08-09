@@ -1,0 +1,5 @@
+2025-08-09 18:40:15 - INFO - Starting ram_cleaner on linux. Threshold=60%
+2025-08-09 18:41:20 - INFO - Uptime: 65s - RAM usage: 63% (threshold 60%)
+2025-08-09 18:41:20 - INFO - Threshold exceeded -> attempting cleaning
+2025-08-09 18:41:21 - INFO - Linux clean: wrote '3' to /proc/sys/vm/drop_caches
+2025-08-09 18:41:22 - INFO - RAM bytes before: 7493427200 | after: 5211424000 | freed: 2282003200 | success: True
