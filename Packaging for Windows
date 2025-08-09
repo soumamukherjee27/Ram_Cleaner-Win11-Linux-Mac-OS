@@ -1,0 +1,3 @@
+pip install pyinstaller
+pyinstaller --onefile --noconsole ram_cleaner.py
+# dist/ram_cleaner.exe will be produced
