@@ -1,0 +1,20 @@
+# Ram_Cleaner
+
+**Cross-Platform RAM Cleaner & Monitor**  
+Automatically monitors memory usage and triggers a cleanup when usage exceeds a threshold. Works on Windows, Linux, and macOS.
+
+## Features
+
+- Detects operating system and applies the correct memory-cleaning strategy.
+- Configurable threshold, intervals, and one-time test mode via CLI flags.
+- Logs before/after memory usage for evidence and debugging.
+- Cross-platform startup integration: Task Scheduler, systemd, launchd.
+
+## Quick Start
+
+```bash
+git clone https://github.com/soumamukherjee27/Ram_Cleaner-Win11-Linux-Mac-OS.git
+cd Ram_Cleaner-Win11-Linux-Mac-OS
+pip install -r requirements.txt
+python ram_cleaner.py --once --verbose            # Run once for testing
+python ram_cleaner.py --threshold 60              # Run indefinitely
