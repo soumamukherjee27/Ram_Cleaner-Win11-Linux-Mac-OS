@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Logs / local files
+*.log
+ram_cleaner.log
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
