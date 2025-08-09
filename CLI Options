@@ -1,0 +1,6 @@
+--threshold / -t       RAM percent threshold (default 60)
+--check-interval / -i  Seconds to wait between checks when idle (default 10)
+--after-clean / -a     Seconds to wait after cleaning (default 60)
+--logfile / -l         Path to log file
+--once                 Run one check & exit
+--verbose              Print logs to console
