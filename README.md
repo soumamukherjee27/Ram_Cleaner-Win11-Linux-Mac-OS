@@ -29,5 +29,5 @@ A lightweight Python utility that continuously monitors system memory usage and 
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/<your-username>/ram_cleaner.git
+git clone https://github.com/<soumamukherjee27>/ram_cleaner.git
 cd ram_cleaner
